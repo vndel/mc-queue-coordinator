@@ -1,0 +1,7 @@
+queue:
+  maximum-length: 5000
+  ticket-ttl-seconds: 900
+  reconnect-grace-seconds: 45
+  dispatch-per-second: 8
+  health-check-interval-seconds: 5
+  overload-policy: reject-with-retry-after
